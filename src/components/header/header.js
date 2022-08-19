@@ -5,8 +5,8 @@ import { history } from "../../managers/history";
 function Header() {
   return (
     <div className="w-screen h-15 bg-purple-150 px-5 tab:px-11 lg:px-[98px] xl:px-[180px] 2xl:px-65 3xl:px-90 mb-7 tab:mb-8 lg:mb-6">
-      <div className="h-full flex items-center justify-between">
-        <div className="w-[179px] h-[31px]  tab:mr-6">
+      <div className="h-full flex items-center lg:justify-between">
+        <div className="w-[179px] h-[31px] mr-auto lg:mr-0">
           <img
             src="/images/learn2Earn.png"
             alt=""
@@ -15,8 +15,8 @@ function Header() {
           />
         </div>
         {/* Header Items */}
-        <div className="flex items-center mobile:hidden tab:w-full  z-50">
-          <div className="tab:flex-1">
+        <div className="flex items-center z-50">
+          <div className="hidden lg:flex">
             <div className="flex items-center justify-between  w-87.5 h-9  mr-9">
               <span className="font-PoppinsMedium text-ft3 text-white-100 cursor-pointer">
                 Projects
@@ -32,11 +32,18 @@ function Header() {
               </span>
             </div>
           </div>
-          <div className="h-9 w-9 cursor-pointer">
-            <img src="/images/wallet.svg" alt="" />
+          <div className="h-[33px] w-[144px] cursor-pointer bg-purple-250 rounded-[18px] flex items-center justify-center mobile:hidden tab:mr-[16px]">
+            <img
+              src="/images/walletLight.svg"
+              alt=""
+              className="w-[22px] h-[17px] mr-[6px]"
+            />
+            <span className="font-PoppinsMedium text-ft3 text-white-100">
+              0x91C2…7cA4
+            </span>
           </div>
         </div>
-        <div className="mobile:flex tab:hidden lg:hidden">
+        <div className="mobile:flex lg:hidden">
           <AiOutlineMenu color="#fff" className="w-7 h-5" />
         </div>
       </div>
