@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProjectDetailsComponent from "./projectDetails";
 import Header from "../header/index";
+import Footer from "../footer/index";
 
 class ProjectDetails extends Component {
   constructor(props) {
@@ -15,6 +16,7 @@ class ProjectDetails extends Component {
       <div className="overflow-x-hidden lg:overflow-y-hidden">
         <Header />
         <ProjectDetailsComponent />
+        <Footer />
       </div>
     );
   }
