@@ -1,0 +1,316 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    screens: {
+      xss: "320px",
+      xs: "480px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1440px",
+      "3xl": "1680px",
+      // Exact Breakpoints
+      mobile: {
+        min: "320px",
+        max: "767px",
+      },
+      tab: {
+        min: "768px",
+        max: "1023px",
+      },
+    },
+    colors: {
+      transparent: "transparent",
+      white: {
+        50: "#F8FBFF",
+        100: "#FFFFFF",
+        150: "#CEBCFF",
+      },
+      slate: {
+        50: "#488FEB00",
+        100: "#F2FAFF",
+      },
+      offWhite: {
+        50: "#FFFFFFE6",
+        100: "#00000021",
+      },
+      black: {
+        50: "#4E4E4E",
+        100: "#000000",
+        150: "#00000095",
+        200: "#484848",
+      },
+      purple: {
+        50: "#502D9A",
+        100: "#6B3BC9",
+        150: "#512C99",
+        200: "#A87BFF",
+      },
+      blue: {
+        50: "#72C4F4",
+        100: "#CFEDFF",
+        150: "#566DDD",
+        200: "#236ECB",
+        250: "#3828BE",
+        300: "#6A4FC3",
+      },
+      green: "#23BA95",
+      grey: {
+        50: "#EDF1F7",
+      },
+      darkGrey: {
+        50: "#8E8E8E",
+        100: "#D1D1D1",
+      },
+      lightGreen: "#CAF5EF",
+    },
+
+    fontSize: {
+      ft1: [
+        "12px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "18px",
+        },
+      ],
+      ft2: [
+        "13px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "20px",
+        },
+      ],
+      ft3: [
+        "14px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "21px",
+        },
+      ],
+      ft4: [
+        "15px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "23px",
+        },
+      ],
+      ft5: [
+        "16px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "25px",
+        },
+      ],
+      ft6: [
+        "18px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "27px",
+        },
+      ],
+      ft7: [
+        "19px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "29px",
+        },
+      ],
+      ft8: [
+        "20px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "30px",
+        },
+      ],
+      ft9: [
+        "23px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "34px",
+        },
+      ],
+      ft10: [
+        "24px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "32px",
+        },
+      ],
+      ft11: [
+        "28px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "50px",
+        },
+      ],
+      ft111: [
+        "32px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "48px",
+        },
+      ],
+      ft12: [
+        "36px",
+        {
+          //H3
+          letterSpacing: "0em",
+          lineHeight: "50px",
+        },
+      ],
+      ft13: [
+        "46px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "69px",
+        },
+      ],
+      ft14: [
+        "50px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "76px",
+        },
+      ],
+      ft15: [
+        "20px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "50px",
+        },
+      ],
+      ft16: [
+        "24px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "50px",
+        },
+      ],
+      ft17: [
+        "15px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "28px",
+        },
+      ],
+    },
+
+    fontFamily: {
+      PoppinsBold: ["Poppins-Bold", "sans-serif"],
+      PoppinsSemiBold: ["Poppins-SemiBold", "sans-serif"],
+      PoppinsRegular: ["Poppins-Regular", "sans-serif"],
+      PoppinsMedium: ["Poppins-Medium", "sans-serif"],
+    },
+
+    extend: {
+      spacing: {
+        "2px": "2px",
+        "6px": "6px",
+        "7px": "7px",
+        "9px": "9px",
+        2.5: "10px",
+        "14px": "14px",
+        "15px": "15px",
+        "17px": "17px",
+        4.5: "18px",
+        "21px": "21px",
+        "23px": "23px",
+        "26px": "26px",
+        "27px": "27px",
+        "29px": "29px",
+        "30px": "30px",
+        "31px": "31px",
+        "33px": "33px",
+        8.5: "34px",
+        9: "36px",
+        "38px": "38px",
+        "37px": "37px",
+        "41px": "41px",
+        11: "44px",
+        "45px": "45px",
+        11.5: "46px",
+        "47px": "47px",
+        "50px": "50px",
+        13: "52px",
+        15: "60px",
+        "65px": "65px",
+        "67px": "67px",
+        "69px": "69px",
+        "74px": "74px",
+        "77px": "77px",
+        "78px": "78px",
+        "82px": "82px",
+        21: "84px",
+        "85px": "85px",
+        21.5: "86px",
+        "90px": "90px",
+        24.5: "98px",
+        25: "100px",
+        "101px": "101px",
+        "114px": "114px",
+        "115px": "115px",
+        29: "116px",
+        31: "124px",
+        32.5: "130px",
+        35: "140px",
+        36.5: "146px",
+        "157px": "157px",
+        "159px": "159px",
+        45: "180px",
+        "183px": "183px",
+        48.5: "194px",
+        50: "200px",
+        52.5: "210px",
+        "213px": "213px",
+        57.5: "230px",
+        59.5: "238px",
+        61: "244px",
+        62.5: "250px",
+        65: "260px",
+        67: "268px",
+        71.5: "286px",
+        74.5: "298px",
+        75: "300px",
+        "303px": "303px",
+        83: "332px",
+        "343px": "343px",
+        87.5: "350px",
+        90: "360px",
+        92.5: "370px",
+        "371px": "371px",
+        98: "392px",
+        99: "396px",
+        "403px": "403px",
+        105: "423px",
+        "447px": "447px",
+        "450px": "450px",
+        "454px": "454px",
+        "466px": "466px",
+        "500px": "500px",
+        "513px": "513px",
+        130: "520px",
+        139: "566px",
+        148: "593px",
+        "607px": "607px",
+        160: "640px",
+        171: "685px",
+        "721px": "721px",
+        "10per": "10%",
+        "15per": "15%",
+        "30per": "30%",
+        "35per": "35%",
+        "40per": "40%",
+        "50per": "50%",
+        "60per": "60%",
+        "100per": "100%",
+      },
+      gridTemplateColumns: {
+        "30/30/30": "30% 30% 30%",
+        "28/28/28": "28% 28% 28%",
+      },
+    },
+  },
+  plugins: [],
+};
