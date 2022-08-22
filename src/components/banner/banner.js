@@ -22,7 +22,7 @@ function Header() {
           {/* Header Items */}
           <div className="flex items-center mobile:hidden tab:w-full mt-5 z-50">
             <div className="tab:flex-1">
-              <div className="flex items-center justify-between  w-87.5 h-9  mr-9">
+              <div className="flex items-center justify-between  w-[350px] h-9  mr-9">
                 <span className="font-PoppinsMedium text-ft5 text-white-100 cursor-pointer">
                   Projects
                 </span>
@@ -47,8 +47,8 @@ function Header() {
         </div>
         {/* Header Bottom */}
         <div className="flex justify-between mobile:flex-col mobile:items-center tab:flex-col tab:items-center">
-          <div className="w-[447px] h-full mobile:w-71.5">
-            <div className="mb-11.5">
+          <div className="w-[447px] h-full mobile:w-[286px]">
+            <div className="mb-[46px]">
               <div className="mobile:text-center">
                 <span className="font-PoppinsSemiBold  text-ft14 text-white-100 mobile:text-ft111">
                   Earn as you Learn
@@ -63,12 +63,12 @@ function Header() {
             </div>
             <div className="flex items-center justify-between mobile:flex-col tab:mb-5">
               {/* Buttons */}
-              <div className="flex items-center justify-center w-50 h-13 bg-blue-250 rounded-2xl mobile:w-74.5 mobile:h-10 mobile:mb-4 z-50 cursor-pointer">
+              <div className="flex items-center justify-center w-50 h-13 bg-blue-250 rounded-2xl mobile:w-[298px] mobile:h-10 mobile:mb-4 z-50 cursor-pointer">
                 <span className="font-PoppinsSemiBold text-ft5 text-white-100">
                   Connect Wallet
                 </span>
               </div>
-              <div className="flex items-center justify-center w-50 h-13 bg-blue-100 rounded-2xl mobile:w-74.5 mobile:h-10 z-50 cursor-pointer">
+              <div className="flex items-center justify-center w-50 h-13 bg-blue-100 rounded-2xl mobile:w-[298px] mobile:h-10 z-50 cursor-pointer">
                 <span className="font-PoppinsSemiBold text-ft5 text-btnTextSkyBlue">
                   How it Works
                 </span>

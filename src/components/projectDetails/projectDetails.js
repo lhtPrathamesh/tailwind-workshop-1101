@@ -18,7 +18,7 @@ function ProjectDetails() {
   };
 
   return (
-    <div className="px-5 md:px-11 lg:px-24.5 xl:px-45 2xl:px-65 3xl:px-90 bg-white-50 mt-27px md:mt-8 lg:mt-23px">
+    <div className="px-5 md:px-11 lg:px-[98px] xl:px-45 2xl:px-65 3xl:px-90 bg-white-50 mt-27px md:mt-8 lg:mt-23px">
       <Banner />
       <Status currentTask={currentTask} />
       {currentTask < 2 ? (

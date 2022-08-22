@@ -11,20 +11,20 @@ function Status({ currentTask }) {
           </span>
           {currentTask > 0 ? (
             currentTask > 1 ? (
-              <div className="flex items-center justify-center w-24.5 h-26px rounded-full bg-lightGreen">
+              <div className="flex items-center justify-center w-[98px] h-26px rounded-full bg-lightGreen">
                 <span className="font-PoppinsMedium text-ft1 text-green">
                   Completed
                 </span>
               </div>
             ) : (
-              <div className="flex items-center justify-center w-24.5 h-26px rounded-full bg-lightGreen">
+              <div className="flex items-center justify-center w-[98px] h-26px rounded-full bg-lightGreen">
                 <span className="font-PoppinsMedium text-ft1 text-green">
                   In Progress
                 </span>
               </div>
             )
           ) : (
-            <div className="flex items-center justify-center w-24.5 h-26px rounded-full bg-lightGreen">
+            <div className="flex items-center justify-center w-[98px] h-26px rounded-full bg-lightGreen">
               <span className="font-PoppinsMedium text-ft1 text-green">
                 Activated
               </span>

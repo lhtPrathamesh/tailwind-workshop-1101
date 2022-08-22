@@ -24,7 +24,7 @@ function Dashoard() {
           )}
           {/* Search Box */}
           {search ? (
-            <div className="mobile:hidden flex items-center w-62.5 h-9.5 bg-white-100 rounded-full px-2">
+            <div className="mobile:hidden flex items-center w-[250px] h-9.5 bg-white-100 rounded-full px-2">
               <img src="/images/searchSmall.svg" alt="" className="w-9 h-9" />
               <input
                 type="text"

@@ -67,7 +67,7 @@ function Banner() {
 
           {/* Earn Details Container */}
           <div className="flex tab:mb-30px">
-            <div className="w-31 h-115px md:w-157px border border-blue-300 rounded-lg py-2.5 px-14px">
+            <div className="w-31 h-115px md:w-157px border border-blue-300 rounded-lg py-[10px] px-14px">
               <div className="flex items-center h-6 mb-1">
                 <span className="mr-2 font-PoppinsMedium text-ft6 text-blue-100">
                   Earn
@@ -97,7 +97,7 @@ function Banner() {
             <div className="h-115px flex flex-col items-center justify-center">
               <img src="/images/plusIcon.svg" alt="" className="w-3 h-3 mx-2" />
             </div>
-            <div className="w-31 h-115px md:w-157px border border-blue-300 rounded-lg py-2.5 px-14px">
+            <div className="w-31 h-115px md:w-157px border border-blue-300 rounded-lg py-[10px] px-14px">
               <div className="flex items-center h-6 mb-1">
                 <span className="mr-2 font-PoppinsMedium text-ft6 text-blue-100">
                   Get

@@ -17,7 +17,7 @@ function Header() {
         {/* Header Items */}
         <div className="flex items-center z-50">
           <div className="hidden lg:flex">
-            <div className="flex items-center justify-between  w-87.5 h-9  mr-9">
+            <div className="flex items-center justify-between  w-[350px] h-9  mr-9">
               <span className="font-PoppinsMedium text-ft3 text-white-100 cursor-pointer">
                 Projects
               </span>

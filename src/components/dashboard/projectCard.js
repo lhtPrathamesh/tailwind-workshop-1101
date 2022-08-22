@@ -4,7 +4,7 @@ import { history } from "../../managers/history";
 function ProjectCard({ image, heading, amount, value, index }) {
   return (
     <div
-      className="bg-white-100 h-57.5 mobile:w-92.5 rounded-2xl shadow-md mb-10 cursor-pointer"
+      className="bg-white-100 h-[230px] mobile:w-[370px] rounded-2xl shadow-md mb-10 cursor-pointer"
       onClick={() => (index === 0 ? history.push("/project-details") : "")}
     >
       <div className="h-3/5 flex items-center justify-center border-b border-grey-50">
