@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ValidateDialog from "./validateDialog";
 
 function Task({ taskDetails, handleTask, handleWallet, isActivated }) {
-  const [validateDialoag, setValidateDialoag] = useState(false);
+  const [validatePopup, setValidatePopup] = useState(false);
   return (
     <>
       <div className="relative">
@@ -39,7 +39,7 @@ function Task({ taskDetails, handleTask, handleWallet, isActivated }) {
               </div>
               <div
                 className="w-50 h-13 bg-blue-250 rounded-xl flex items-center justify-center cursor-pointer"
-                onClick={() => setValidateDialoag(true)}
+                onClick={() => setValidatePopup(true)}
               >
                 <span className="font-PoppinsSemiBold text-ft6 text-white-100">
                   Validate Task
@@ -57,10 +57,10 @@ function Task({ taskDetails, handleTask, handleWallet, isActivated }) {
           </span>
         </div>
       </div>
-      {validateDialoag ? (
+      {validatePopup ? (
         <ValidateDialog
-          handleClose={() => setValidateDialoag(false)}
-          open={validateDialoag}
+          handleClose={() => setValidatePopup(false)}
+          open={validatePopup}
           handleTask={handleTask}
         />
       ) : (
